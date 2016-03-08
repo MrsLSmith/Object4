@@ -40,3 +40,20 @@ function toggleTable(){
     table.style.display = "";
   }else table.style.display = "none";
 };
+
+
+
+showNames();
+
+function showNames() {
+  for (var i in superheroes) {
+    document.getElementById("superheroes").innerHTML += '<p>' + superheroes[i].Name + '</p>';
+  }
+}
+
+function toggleNames() {
+  var superheroes = document.getElementById("superheroes");
+  if (superheroes.style.display == "none") {
+    superheroes.style.display = "";
+  } else superheroes.style.display = "none";
+};
