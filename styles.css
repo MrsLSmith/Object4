@@ -1,9 +1,10 @@
-table{
+table {
   background: #fff;
 }
 
-td{
+td {
   padding: 15px 10px;
+  border: solid;
 }
 
 header {
@@ -19,12 +20,16 @@ body {
   color: black;
 }
 
-div, td {
+div {
   border: solid;
-  width: 20%;
-  margin-right: 40%;
-  margin-left: 40%;
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
   padding-bottom: 25px;
-} 
+}
 
-
+button {
+  margin: 10px;
+  background: white;
+  border: solid;
+}
