@@ -25,7 +25,7 @@ function toggleList(){
   if (headings.style.display == "none"){
     headings.style.display = "";
   } else headings.style.display = "none";
-
+};
 showTable();
 function showTable(){
   var table = '';
